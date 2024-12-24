@@ -7,7 +7,7 @@ const path = require("path");
 const sessionFolderPath = path.join(__dirname, "./wwebjs_auth/session");
 // Initialize the Express app
 const app = express();
-const port = 4000;
+const port = 5023;
 
 // Middleware to parse JSON data from requests
 app.use(bodyParser.json());
